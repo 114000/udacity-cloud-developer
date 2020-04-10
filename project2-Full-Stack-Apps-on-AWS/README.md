@@ -1,0 +1,5 @@
+- step 1: develop the feature in the `server.ts`
+- step 2: build project with `npm run build` and check the `www` folden.
+- step 3: install EB CLI and initialize it.
+- step 4: create an application named `udacity-project-2` with `eb create`
+- step 5: create configure file

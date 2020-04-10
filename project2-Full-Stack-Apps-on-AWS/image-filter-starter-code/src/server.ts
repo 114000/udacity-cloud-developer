@@ -45,7 +45,9 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
     res.status(200).sendFile(path)
 
-    deleteLocalFiles([path])
+    setTimeout(() => {
+      deleteLocalFiles([path])
+    }, 60 * 1000)
 
   })
   //! END @TODO1
